@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="sobre">
+        <h1 class="principal">Guilherme Antonio Cotrim Santos</h1>
+        <hr>
+    <nav>
+        <a href="sitepessoal.html" target="_self" rel="next">Página inicial</a>
+        <a href="sobre.html" target="_self" rel="next">Sobre</a>
+        <a href="portfolio.html" target="_self" rel="next">Portfólio</a>
+    </nav>
+    </header>
+
+    <main>
+        <h1 id="principal">Guilherme Antonio <br> Cotrim Santos</h1>
+        <img src="imagens/imgp.jpg" alt="area de trabalho">
+    </main>
+
+    <div id="citacao">
+        <h2>"Não havia ninguém por pertopara me confundir; logo, fui obrigado a ser original"</h2>
+        <p>Joseph Haydn</p>
+    </div>
+
+    <div>
+        <h1 id="titulo">Trabalhe comigo</h1>
+        <br>
+    </div>
+    <form action="#">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome" id="n">Nome&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sobrenome</label><br>
+                <input type="text" name="nome" id="nome" required>&nbsp;&nbsp;&nbsp;
+                <input type="text" name="sobrenome" id="sobrenome" required><br><br>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label for="email" id="e">E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Numero</label><br>
+            <input type="email" name="email" id="email" required>&nbsp;&nbsp;&nbsp;
+            <input type="tel" name="tel" id="tel" required>
+        </div><br>
+        <!--<div>
+            <label for="">quais dias esta disponivel? </label>
+            <label for=""><input type="radio" name="diasdesponivel" id="">Seg.</label>
+            <label for=""><input type="radio" name="diasdesponivel" id="">Ter.</label>
+            <label for=""><input type="radio" name="diasdesponivel" id="">Qua.</label>
+        </div>--> 
+        <fieldset class="grupo">
+            <div id="check">
+                <label for="quais" id="q">Quais dias esta disponivel? </label><br><br>
+                <div id="d">
+                    <input type="checkbox" name="dia1" id="dia1">
+                    <label for="seg">Seg.</label>
+                    <input type="checkbox" name="dia2" id="dia2">
+                    <label for="ter">ter.</label>
+                    <input type="checkbox" name="dia3" id="dia3">
+                    <label for="qua">Ter.</label>
+                    <input type="checkbox" name="dia4" id="dia4">
+                    <label for="qui">Qui..</label>
+                    <input type="checkbox" name="dia5" id="dia5">
+                    <label for="sex">Sex.</label>
+                    <input type="checkbox" name="dia6" id="dia6">
+                    <label for="sab">Sab.</label>
+                </div>               
+            </div>
+        </fieldset>
+            <div class="campo">
+                <br>
+                <label for="conte" id="conte">conte um pouco sobre voce</label><br>
+                <textarea rows="10" style="width: 26em;" id="sobre" name="sobre">  </textarea>
+            </div>
+            <button type="submit" class="botao">Enviar</button><br><br><br>
+    </form>
+
+    <div id="contatos">
+        <h1>Entre em contato</h1>
+        <p>Rua Largo do Rosario-315, Rio de Contas</p>
+        <p>guilhermentonio3@gmail.com</p>
+        <p>+55 (77) 98145-1824</p>
+    </div>
+
+    <div id="videos">
+        <p id="e">video channel name</p>
+        <video src="medias/pexels-leandro-barreto-16286223-1280x720-30fps.mp4" id="principal" controls></video>
+        <div id="buscar"><input type="search" name="buscar" id="video" placeholder="🔍 Buscar por video..."></div>
+        <video src="medias/pexels-stiliyan-dimitrov-16275697-1280x720-30fps.mp4"></video>
+        <video src="medias/pexels-sururi-ballıdağ-_director_-16265861-1280x720-25fps.mp4"></video>
+        <video src="medias/pexels-theflyingpirate-16286395-1280x720-30fps.mp4"></video>
+        <video src="medias/pexels-uncle-rico-16274096-1280x720-60fps.mp4"></video>
+        <p id="d"><a href="#">Próximo &rarr;</a></p>
+    </div>
+
+    <footer><div id="icon">
+        <img src="imagens/marketing-de-email.png" alt="simbolo do email" class="icon">
+            <p><a href="malto:guilhermentonio3@gmail.com" target="_blank">guilhermentonio3@gmail.com</a></p>
+    </div>
+        <figure>
+            <a href="https://instagram.com/https.flc/" target="_blank"><img src="imagens/instagram.png" alt="direcionar ao instagram" class="icon"></a>
+            <a href="https://www.facebook.com/guilherme.antonio.35574406" target="_blank"><img src="imagens/facebook.png" alt="direcionar ao facebook" class="icon"></a>
+            <a href="https://wa.me/77981451824" target="_blank"><img src="imagens/whatsapp.png" alt="direcionar ao whatsapp" class="icon"></a>
+        </figure>
+        <p>&copy; 2023 por Guilherme Antonio Cotrim Santos.</p>
+    </footer>
+
+</body>
+
+</html>
